@@ -6,7 +6,8 @@ import falcon
 import worker
 
 
-api = falcon.API()
+application = falcon.API()
+api = application
 
 worker = worker.Resource()
 api.add_route('/worker', worker)
