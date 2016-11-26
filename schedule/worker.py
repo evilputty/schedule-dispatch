@@ -11,4 +11,4 @@ class Resource(object):
     '''
     def on_get(self, req, resp):
         resp.body = '{"body": "Hello World!"}'
-        resp.status = falcon.API()
+        resp.status = falcon.HTTP_200
