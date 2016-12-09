@@ -1,0 +1,63 @@
+{
+  "request": "schedule",
+  "schedule": [
+    {
+      "job": [
+        {
+          "id": 12345,
+          "name": "Sample Project #1",
+          "start": "2016-12-01T00:00:00.000Z",
+          "end": "2016-12-09T00:00:00.000Z",
+          "certified_payroll": false,
+          "completed": false,
+          "workers": [
+            {
+              "name": "Jim Bob",
+              "id": 12345
+            },
+            {
+              "name": "Tom Smith",
+              "id": 12346
+            },
+            {
+              "name": "Jon Snow",
+              "id": 12347
+            }
+          ]
+        },
+        {
+          "id": 12346,
+          "name": "Sample Project #2",
+          "start": "2016-12-01T00:00:00.000Z",
+          "end": "2016-12-09T00:00:00.000Z",
+          "certified_payroll": false,
+          "completed": false,
+          "workers": [
+            {
+              "name": "Jim Bob",
+              "id": 12345
+            }
+          ]
+        },
+        {
+          "id": 12347,
+          "name": "Sample Project #3",
+          "start": "2016-12-01T00:00:00.000Z",
+          "end": "2016-12-09T00:00:00.000Z",
+          "certified_payroll": false,
+          "completed": false,
+          "workers": [
+            {
+              "name": "Jim Bob",
+              "id": 12345
+            },
+            {
+              "name": "Jon Snow",
+              "id": 12347
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
